@@ -1,0 +1,20 @@
+/* * {
+  list-style: url(../assets/icon/croissant.svg);
+} */
+
+.md-nav__item--active {
+  color: rgb(160, 211, 255);
+}
+
+.md-nav__item .md-nav__item--nested label {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+h2 {
+  color: rgb(133, 133, 255);
+}
+
+h3 {
+  color: rgb(160, 211, 255);
+}
