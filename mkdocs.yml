@@ -1,0 +1,151 @@
+site_name: Rezeptbuch
+site_description: Alle meine kleinen Rezepte, die sich so zusammentragen lassen :)
+site_author: Ramona Luigi
+
+# name: ci 
+# on:
+#   push:
+#     branches:
+#       - main
+# permissions:
+#   contents: write
+# jobs:
+#   deploy:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v4
+#       - name: Configure Git Credentials
+#         run: |
+#           git config user.name github-actions[bot]
+#           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+#       - uses: actions/setup-python@v5
+#         with:
+#           python-version: 3.x
+#       - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
+#       - uses: actions/cache@v4
+#         with:
+#           key: mkdocs-material-${{ env.cache_id }}
+#           path: .cache
+#           restore-keys: |
+#             mkdocs-material-
+#       - run: pip install mkdocs-material 
+#       - run: mkdocs gh-deploy --force
+
+theme:
+  name: material
+  favicon: assets/icon/croissant.svg
+  icon:
+    logo: material/cookie
+  language: de
+  features:
+    - navigation.instant.preview
+    - navigation.tabs
+    - navigation.top
+    - navigation.tabs.sticky
+    - navigation.path
+    - toc.follow
+
+  palette:
+      # Palette toggle for light mode
+      - scheme: default
+        media: "(prefers-color-scheme: light)"
+        # primary: custom
+        primary: brown
+        accent: indigo
+        toggle:
+          icon: material/weather-night
+          name: Switch to dark mode
+
+      # Palette toggle for dark mode
+      - scheme: slate
+        media: "(prefers-color-scheme: dark)"
+        # primary: custom
+        primary: teal
+        accent: indigo
+        toggle:
+          icon: material/weather-sunny
+          name: Switch to light mode
+
+dev_addr: '127.0.0.1:9000'
+
+watch:
+  - includes
+
+plugins:
+  - search
+
+
+markdown_extensions:
+  - abbr
+  - tables
+  - attr_list
+  - footnotes
+  - admonition
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.caret
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.tabbed
+  - pymdownx.details
+  - pymdownx.magiclink
+  - markdown_grid_tables # multiline tables
+  - pymdownx.progressbar
+  - pymdownx.superfences
+  - pymdownx.smartsymbols
+  - pymdownx.emoji: # Loads emojis with Shortcodes :)
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+
+  - pymdownx.highlight:
+      anchor_linenums: true
+      use_pygments: true
+      pygments_lang_class: true
+      auto_title: true
+
+  - pymdownx.tasklist: # For checkboxes
+      custom_checkbox: true
+      clickable_checkbox: true # Um sie auch anklicken zu können
+
+  - pymdownx.arithmatex:
+      generic: true
+
+  - codehilite:
+      guess_lang: false
+  
+  # - material.extensions.preview # Kommt erst im normalen realease
+  #   sources:
+  #     include:
+  #       - Backen/*
+  #       - Kochen/*
+  #       - Kalte_Platte/*
+  #   targets:
+  #     include:
+  #       - Backen/*
+  #       - Kochen/*
+  #       - Kalte_Platte/*
+
+# Navigation
+# - navigation.instant
+# - navigation.instant.prefetch
+# - navigation.instant.progress
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Steam0wl
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/Steam0wl
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/ramona-luigi/
+
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - css/style.css
