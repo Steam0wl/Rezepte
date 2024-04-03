@@ -1,12 +1,15 @@
 # Falsche Milchschnitte
 
-![Milchschnitte Bild](../assets/img/Milchschnitte_01.webp){:width="80%" margin="0 auto"}
+![Milchschnitte Bild](../assets/img/Milchschnitte_01.webp){: .img-center-horizontal}
+
+## Kosten
+:fontawesome-solid-dollar-sign:{ .active-money }:fontawesome-solid-dollar-sign:{ .active-money }:fontawesome-solid-dollar-sign:{ .inactive-money }:fontawesome-solid-dollar-sign:{ .inactive-money }:fontawesome-solid-dollar-sign:{ .inactive-money }
 
 ## Zutaten  
-<sub>(9-12 Stk.)</sub>
+<sub>(für 9-12 Stk.)</sub>
 
 ### Milchcreme
-??? info "Zutaten"
+???+ info "Zutaten"
     - 250 g Butter, zimmerwarm
     - 5 EL Mehl
     - 250 ml Milch
@@ -15,7 +18,7 @@
     - 1 TL Honig
 
 ### Biskuitteig
-??? info "Zutaten"
+???+ info "Zutaten"
     - 5 Eier
     - 60 g Zucker
     - 2 Pck. Vanillezucker
@@ -26,17 +29,17 @@
     - 25 g Backkakao
 
 ## Zubereitung
-### Schritt 1: Milchcreme vorbereiten
-??? info "Schritte"
+### 1: Milchcreme vorbereiten
+???+ quote ":material-format-list-numbered: Schritte"
     - Die kalte Milch in eine kleinen Topf geben und das Mehl mit einem Schneebesen einrühren.
     !!! warning "Wichtig"
         So lange rühren, bis sich das Mehl komplett aufgelösst hat und keine Klümpchen mehr da sind.
     - Nun den Herd einschalten und die Mischung unter Rühren aufkochen lassen. Sobald es kocht, die Hitze auf kleinste Stufe stellen.
-        - Etwa 2-3 Minuten köcheln lassen, unbedingt dabei rühren und so lange weiter machen, bis ein fester, rissiger “Teig” entstanden ist.
+        - Etwa 2 - 3 Minuten köcheln lassen, unbedingt dabei rühren und so lange weiter machen, bis ein fester, rissiger “Teig” entstanden ist.
     - Vom Herd nehmen und abkühlen lassen.
 
-### Schritt 2: Biskuit machen
-??? info "Schritte"
+### 2: Biskuit machen
+??? quote ":material-format-list-numbered: Schritte"
     - Den Ofen auf 180°C vorheizen.
     - Ein Backblech mit Backpapier auslegen.
     !!! tip "Tipp"
@@ -50,8 +53,8 @@
     - Die Masse auf das Backblech streichen und 15 Minuten backen.
     - Den Teig aus dem Ofen holen und sofort mit dem Backpapier vom Blech ziehen und abkühlen lassen.
 
-### Schritt 3: Milchcreme fertig machen
-??? info "Schritte"
+### 3: Milchcreme fertig machen
+??? quote ":material-format-list-numbered: Schritte"
     !!! tip "Vorsicht mit der Butter"
         Die Butter **muss** zimmerwarm sein.  
         Wenn sie das nicht ist, einfach in der Mikrowelle bei geringer Leistung etwas erwärmen.  
@@ -59,8 +62,8 @@
     - Butter und Zucker in einer Schüssel mit dem Handrührer oder in der Küchenmaschine auf hoher Geschwindigkeit richtig fluffig aufschlagen.
     - Nun die abgekühlte Milchmischung und den Honig dazugeben und weiter schlagen, bis die Masse die Konsistenz von geschlagener Sahne hat.
 
-### Schritt 4: Milchschnitten bauen
-??? info "Schritte"
+### 4: Milchschnitten bauen
+??? quote ":material-format-list-numbered: Schritte"
     - Wenn die Ränder vom Biskuit ein bisschen trocken geworden sind, diese abschneiden.
     - Den Biskuit halbieren.
     - Nun eine Hälfte mit der Creme bestreichen.
