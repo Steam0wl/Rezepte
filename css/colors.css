@@ -1,0 +1,6 @@
+.active-money {
+  color: rgb(0, 165, 0);
+}
+.inactive-money {
+  color: rgb(0, 165, 0, .2);
+}

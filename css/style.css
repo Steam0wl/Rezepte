@@ -18,3 +18,9 @@ h2 {
 h3 {
   color: rgb(160, 211, 255);
 }
+
+.img-center-horizontal {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
