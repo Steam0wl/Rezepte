@@ -9,7 +9,7 @@
 <sub>(für 9-12 Stk.)</sub>
 
 ### Milchcreme
-???+ info "Zutaten"
+???+ example "Zutaten"
     - 250 g Butter, zimmerwarm
     - 5 EL Mehl
     - 250 ml Milch
@@ -18,7 +18,7 @@
     - 1 TL Honig
 
 ### Biskuitteig
-???+ info "Zutaten"
+???+ example "Zutaten"
     - 5 Eier
     - 60 g Zucker
     - 2 Pck. Vanillezucker
@@ -30,7 +30,7 @@
 
 ## Zubereitung
 ### 1: Milchcreme vorbereiten
-???+ quote ":material-format-list-numbered: Schritte"
+???+ abstract "Schritte"
     - Die kalte Milch in eine kleinen Topf geben und das Mehl mit einem Schneebesen einrühren.
     !!! warning "Wichtig"
         So lange rühren, bis sich das Mehl komplett aufgelösst hat und keine Klümpchen mehr da sind.
@@ -39,7 +39,7 @@
     - Vom Herd nehmen und abkühlen lassen.
 
 ### 2: Biskuit machen
-??? quote ":material-format-list-numbered: Schritte"
+??? abstract "Schritte"
     - Den Ofen auf 180°C vorheizen.
     - Ein Backblech mit Backpapier auslegen.
     !!! tip "Tipp"
@@ -54,7 +54,7 @@
     - Den Teig aus dem Ofen holen und sofort mit dem Backpapier vom Blech ziehen und abkühlen lassen.
 
 ### 3: Milchcreme fertig machen
-??? quote ":material-format-list-numbered: Schritte"
+??? abstract "Schritte"
     !!! tip "Vorsicht mit der Butter"
         Die Butter **muss** zimmerwarm sein.  
         Wenn sie das nicht ist, einfach in der Mikrowelle bei geringer Leistung etwas erwärmen.  
@@ -63,7 +63,7 @@
     - Nun die abgekühlte Milchmischung und den Honig dazugeben und weiter schlagen, bis die Masse die Konsistenz von geschlagener Sahne hat.
 
 ### 4: Milchschnitten bauen
-??? quote ":material-format-list-numbered: Schritte"
+??? abstract "Schritte"
     - Wenn die Ränder vom Biskuit ein bisschen trocken geworden sind, diese abschneiden.
     - Den Biskuit halbieren.
     - Nun eine Hälfte mit der Creme bestreichen.
