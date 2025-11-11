@@ -5,11 +5,15 @@
 
 ## Zutaten
 ???+ example ":bowl_with_spoon:"
-    - 500	g	Mehl
-    - 5	Stk	Eier
-    - 250	ml	Wasser
-    - 1	TL	Salz
-    - 2	EL	Butter, für die Pfanne
+    - Olivenöl
+    - 1 ganzer Brokkoli
+    - Pasta nach Wahl
+    - Knoblauch
+    - Chiliflocken
+    - Parmesan
+    - Créme fraîche / Mascarpone
+    - Salz & Pfeffer
+    - Basilikum
 
 ## Zubereitung
 ???+ abstract "Schritte"
